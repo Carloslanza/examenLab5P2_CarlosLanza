@@ -8,11 +8,11 @@ public class Usuario {
     private String apellido;
     private String contraseña;
     private Date fechaDeNacimiento;
-    private String sexo;
+    private char sexo;
     private String departamento;
     private String DNI;
 
-    public Usuario(String nombre, String apellido, String contraseña, Date fechaDeNacimiento, String sexo, String departamento) {
+    public Usuario(String nombre, String apellido, String contraseña, Date fechaDeNacimiento, char sexo, String departamento) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.contraseña = contraseña;
@@ -55,8 +55,8 @@ public class Usuario {
         int año = fechaDeNacimiento.getYear() + 1900;
         DNI += año + "-";
         
-        for (int i = 0; i < 4; i++) {
-            DNI += random.nextInt((9 - 0) + 1) + 0;
+        for (int i = 0; i <= 4; i++) {
+            DNI += random.nextInt();
         }
         
         this.DNI = DNI;
@@ -94,11 +94,11 @@ public class Usuario {
         this.fechaDeNacimiento = fechaDeNacimiento;
     }
 
-    public String getSexo() {
+    public char getSexo() {
         return sexo;
     }
 
-    public void setSexo(String sexo) {
+    public void setSexo(char sexo) {
         this.sexo = sexo;
     }
 

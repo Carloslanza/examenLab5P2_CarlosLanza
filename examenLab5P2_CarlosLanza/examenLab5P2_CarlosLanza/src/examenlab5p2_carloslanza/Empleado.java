@@ -7,7 +7,7 @@ public class Empleado extends Usuario {
     private String puestoLaboral;
     private int añosRNP;
 
-    public Empleado(String carrera, String puestoLaboral, int añosRNP, String nombre, String apellido, String contraseña, Date fechaDeNacimiento, String sexo, String departamento) {
+    public Empleado(String carrera, String puestoLaboral, int añosRNP, String nombre, String apellido, String contraseña, Date fechaDeNacimiento, char sexo, String departamento) {
         super(nombre, apellido, contraseña, fechaDeNacimiento, sexo, departamento);
         this.carrera = carrera;
         this.puestoLaboral = puestoLaboral;

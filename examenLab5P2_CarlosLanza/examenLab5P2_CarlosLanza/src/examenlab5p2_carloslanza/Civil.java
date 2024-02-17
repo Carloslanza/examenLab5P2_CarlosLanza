@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Civil extends Usuario {
-    ArrayList<Tramite> trámites = new ArrayList();
+    ArrayList<Trámite> trámites = new ArrayList();
 
-    public Civil(String nombre, String apellido, String contraseña, Date fechaDeNacimiento, String sexo, String departamento) {
+    public Civil(String nombre, String apellido, String contraseña, Date fechaDeNacimiento, char sexo, String departamento) {
         super(nombre, apellido, contraseña, fechaDeNacimiento, sexo, departamento);
     }
 
-    public ArrayList<Tramite> getTramites() {
+    public ArrayList<Trámite> getTrámites() {
         return trámites;
     }
 

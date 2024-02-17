@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
-    <Container class="javax.swing.JDialog" name="empleado_jd">
+    <Container class="javax.swing.JPanel" name="civil_panel">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[492, 437]"/>
+        </Property>
+      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -10,13 +15,13 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="jTabbedPane3" alignment="1" max="32767" attributes="0"/>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="bienvenido_txt2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="bienvenido_txt" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="nombreEmpleado_txt2" min="-2" pref="250" max="-2" attributes="0"/>
+                          <Component id="nombreEmpleado_txt" min="-2" pref="0" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="cerrarSesion_btn2" min="-2" max="-2" attributes="0"/>
+                          <Component id="cerrarSesion_btn" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
@@ -25,29 +30,29 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="bienvenido_txt2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="nombreEmpleado_txt2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="bienvenido_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nombreEmpleado_txt" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Component id="cerrarSesion_btn2" min="-2" max="-2" attributes="0"/>
+                          <Component id="cerrarSesion_btn" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                  <Component id="jTabbedPane3" min="-2" pref="288" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" min="-2" pref="288" max="-2" attributes="0"/>
                   <EmptySpace pref="46" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="bienvenido_txt2">
+        <Component class="javax.swing.JLabel" name="bienvenido_txt">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="0"/>
@@ -55,25 +60,22 @@
             <Property name="text" type="java.lang.String" value="Bienvenido:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="nombreEmpleado_txt2">
+        <Component class="javax.swing.JLabel" name="nombreEmpleado_txt">
         </Component>
-        <Component class="javax.swing.JButton" name="cerrarSesion_btn2">
+        <Component class="javax.swing.JButton" name="cerrarSesion_btn">
           <Properties>
             <Property name="text" type="java.lang.String" value="Cerrar Sesi&#xf3;n"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cerrarSesion_btn2MouseClicked"/>
-          </Events>
         </Component>
-        <Container class="javax.swing.JTabbedPane" name="jTabbedPane3">
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="infoCiviles_panel2">
+            <Container class="javax.swing.JPanel" name="infoPersonal_panel">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Informaci&#xf3;n Civiles">
-                    <Property name="tabTitle" type="java.lang.String" value="Informaci&#xf3;n Civiles"/>
+                  <JTabbedPaneConstraints tabName="Informaci&#xf3;n Personal">
+                    <Property name="tabTitle" type="java.lang.String" value="Informaci&#xf3;n Personal"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -81,20 +83,20 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jScrollPane7" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jScrollPane6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane1" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="infoCiviles_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="tramites_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="infoPersonal_txt" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tramitesPersonal_txt" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
@@ -107,27 +109,27 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                          <Component id="infoCiviles_txt2" min="-2" max="-2" attributes="0"/>
+                          <Component id="infoPersonal_txt" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane6" min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="65" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="tramites_txt2" min="-2" max="-2" attributes="0"/>
+                          <Component id="tramitesPersonal_txt" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jScrollPane7" min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="65" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
                   <AuxValues>
                     <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                   </AuxValues>
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="infoCiviles_table2">
+                    <Component class="javax.swing.JTable" name="infoPersonal_table">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="3" rowCount="4">
@@ -163,14 +165,14 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+                <Container class="javax.swing.JScrollPane" name="jScrollPane2">
                   <AuxValues>
                     <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                   </AuxValues>
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="tramitesCiviles_table2">
+                    <Component class="javax.swing.JTable" name="tramitesPersonal_table">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="4" rowCount="4">
@@ -212,23 +214,23 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JLabel" name="infoCiviles_txt2">
+                <Component class="javax.swing.JLabel" name="infoPersonal_txt">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Informaci&#xf3;n de los civiles:"/>
+                    <Property name="text" type="java.lang.String" value="Informaci&#xf3;n Personal:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="tramites_txt2">
+                <Component class="javax.swing.JLabel" name="tramitesPersonal_txt">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Tr&#xe1;mites:"/>
                   </Properties>
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="modCiviles_panel2">
+            <Container class="javax.swing.JPanel" name="tramites_panel">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Modificaci&#xf3;n Civiles">
-                    <Property name="tabTitle" type="java.lang.String" value="Modificaci&#xf3;n Civiles"/>
+                  <JTabbedPaneConstraints tabName="Gesti&#xf3;n de Tr&#xe1;mites">
+                    <Property name="tabTitle" type="java.lang.String" value="Gesti&#xf3;n de Tr&#xe1;mites"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -237,186 +239,89 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="nombre_txt2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="nombre_field2" max="32767" attributes="0"/>
-                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="apellido_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="apellido_field2" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="167" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="enviar_btn" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="departamento_cb2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="modificar_btn2" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="identidades_cb2" min="-2" pref="254" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="sexo_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="sexo_cb2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="departamento_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane5" pref="452" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="contraseñaCivil_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="contraseñaCivil_field2" alignment="0" min="-2" pref="127" max="-2" attributes="0"/>
+                                      <Component id="nombreTramite_txt" min="-2" max="-2" attributes="0"/>
+                                      <Component id="descripcion_txt" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="fechaNacimiento_txt2" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
+                              <Component id="nombreTramite_field" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="nombreTramite_txt" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="modificar_btn2" alignment="1" min="-2" max="-2" attributes="0"/>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="identidades_cb2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="apellido_txt2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="nombre_txt2" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="apellido_field2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="nombre_field2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="contraseñaCivil_txt2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="fechaNacimiento_txt2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="contraseñaCivil_field2" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="sexo_txt2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="sexo_cb2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="departamento_txt2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="departamento_cb2" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <Component id="nombreTramite_field" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="descripcion_txt" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" min="-2" pref="111" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="enviar_btn" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="7" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JComboBox" name="identidades_cb2">
+                <Component class="javax.swing.JButton" name="enviar_btn">
                   <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="0"/>
-                    </Property>
+                    <Property name="text" type="java.lang.String" value="Enviar"/>
                   </Properties>
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-                  </AuxValues>
                 </Component>
-                <Component class="javax.swing.JLabel" name="nombre_txt2">
+                <Component class="javax.swing.JLabel" name="nombreTramite_txt">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nombre"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="nombre_field2">
+                <Component class="javax.swing.JTextField" name="nombreTramite_field">
                 </Component>
-                <Component class="javax.swing.JLabel" name="apellido_txt2">
+                <Component class="javax.swing.JLabel" name="descripcion_txt">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Apellido"/>
+                    <Property name="text" type="java.lang.String" value="Descripci&#xf3;n"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="apellido_field2">
-                </Component>
-                <Component class="javax.swing.JLabel" name="contrase&#xf1;aCivil_txt2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JTextField" name="contrase&#xf1;aCivil_field2">
-                </Component>
-                <Component class="javax.swing.JLabel" name="fechaNacimiento_txt2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Fecha de Nacimiento"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="sexo_txt2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Sexo"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JComboBox" name="sexo_cb2">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="2">
-                        <StringItem index="0" value="M"/>
-                        <StringItem index="1" value="F"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane5">
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                   </AuxValues>
-                </Component>
-                <Component class="javax.swing.JLabel" name="departamento_txt2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Departamento"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JComboBox" name="departamento_cb2">
-                  <Properties>
-                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="3">
-                        <StringItem index="0" value="Francisco Morazan"/>
-                        <StringItem index="1" value="Comayagua"/>
-                        <StringItem index="2" value="Cortes"/>
-                      </StringArray>
-                    </Property>
-                  </Properties>
-                  <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-                  </AuxValues>
-                </Component>
-                <Component class="javax.swing.JButton" name="modificar_btn2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Modificar"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="modificar_btn2MouseClicked"/>
-                  </Events>
-                </Component>
-                <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
-                </Component>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="descripcion_area">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
           </SubComponents>
         </Container>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JDialog" name="civil_jd">
+    <Container class="javax.swing.JPanel" name="empleado_panel">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[492, 437]"/>
+        </Property>
+      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -428,7 +333,7 @@
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="bienvenido_txt1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="nombreCivil_txt1" min="-2" pref="248" max="-2" attributes="0"/>
+                          <Component id="nombreEmpleado_txt1" min="-2" pref="0" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="cerrarSesion_btn1" min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -445,7 +350,7 @@
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="bienvenido_txt1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="nombreCivil_txt1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="nombreEmpleado_txt1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -469,25 +374,22 @@
             <Property name="text" type="java.lang.String" value="Bienvenido:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="nombreCivil_txt1">
+        <Component class="javax.swing.JLabel" name="nombreEmpleado_txt1">
         </Component>
         <Component class="javax.swing.JButton" name="cerrarSesion_btn1">
           <Properties>
             <Property name="text" type="java.lang.String" value="Cerrar Sesi&#xf3;n"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cerrarSesion_btn1MouseClicked"/>
-          </Events>
         </Component>
         <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="infoPersonal_panel1">
+            <Container class="javax.swing.JPanel" name="infoCiviles_panel1">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Informaci&#xf3;n Personal">
-                    <Property name="tabTitle" type="java.lang.String" value="Informaci&#xf3;n Personal"/>
+                  <JTabbedPaneConstraints tabName="Informaci&#xf3;n Civiles">
+                    <Property name="tabTitle" type="java.lang.String" value="Informaci&#xf3;n Civiles"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -507,8 +409,8 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="infoPersonal_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="tramitesPersonal_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="infoCiviles_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tramites_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
@@ -521,11 +423,11 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                          <Component id="infoPersonal_txt1" min="-2" max="-2" attributes="0"/>
+                          <Component id="infoCiviles_txt1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollPane3" min="-2" pref="65" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="tramitesPersonal_txt1" min="-2" max="-2" attributes="0"/>
+                          <Component id="tramites_txt1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="jScrollPane4" min="-2" pref="65" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
@@ -541,7 +443,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="infoPersonal_table1">
+                    <Component class="javax.swing.JTable" name="infoCiviles_table1">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="3" rowCount="4">
@@ -584,7 +486,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="tramitesPersonal_table1">
+                    <Component class="javax.swing.JTable" name="tramitesCiviles_table1">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="4" rowCount="4">
@@ -626,23 +528,23 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JLabel" name="infoPersonal_txt1">
+                <Component class="javax.swing.JLabel" name="infoCiviles_txt1">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Informaci&#xf3;n Personal:"/>
+                    <Property name="text" type="java.lang.String" value="Informaci&#xf3;n de los civiles:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="tramitesPersonal_txt1">
+                <Component class="javax.swing.JLabel" name="tramites_txt1">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Tr&#xe1;mites:"/>
                   </Properties>
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="tramites_panel1">
+            <Container class="javax.swing.JPanel" name="modCiviles_panel1">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Gesti&#xf3;n de Tr&#xe1;mites">
-                    <Property name="tabTitle" type="java.lang.String" value="Gesti&#xf3;n de Tr&#xe1;mites"/>
+                  <JTabbedPaneConstraints tabName="Modificaci&#xf3;n Civiles">
+                    <Property name="tabTitle" type="java.lang.String" value="Modificaci&#xf3;n Civiles"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -651,80 +553,179 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="enviar_btn1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="nombre_txt1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="nombre_field1" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="apellido_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="apellido_field1" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="167" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane8" alignment="0" pref="452" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="nombreTramite_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="descripcion_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="identidades_cb1" min="-2" pref="254" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="nombreTramite_field1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="sexo_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="sexo_cb1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="departamento_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="departamento_cb1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="modificar_btn1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="contraseñaCivil_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="contraseñaCivil_field1" alignment="0" min="-2" pref="127" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="fechaNacimiento_txt1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jDateChooser1" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                          <Component id="nombreTramite_txt1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="nombreTramite_field1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="descripcion_txt1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane8" min="-2" pref="111" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="enviar_btn1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="modificar_btn1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="identidades_cb1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="apellido_txt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="nombre_txt1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="apellido_field1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="nombre_field1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="contraseñaCivil_txt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fechaNacimiento_txt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="contraseñaCivil_field1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="sexo_txt1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="sexo_cb1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="departamento_txt1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="departamento_cb1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="7" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JButton" name="enviar_btn1">
+                <Component class="javax.swing.JComboBox" name="identidades_cb1">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Enviar"/>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
                   </Properties>
-                  <Events>
-                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="enviar_btn1MouseClicked"/>
-                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
                 </Component>
-                <Component class="javax.swing.JLabel" name="nombreTramite_txt1">
+                <Component class="javax.swing.JLabel" name="nombre_txt1">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nombre"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="nombreTramite_field1">
+                <Component class="javax.swing.JTextField" name="nombre_field1">
                 </Component>
-                <Component class="javax.swing.JLabel" name="descripcion_txt1">
+                <Component class="javax.swing.JLabel" name="apellido_txt1">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Descripci&#xf3;n"/>
+                    <Property name="text" type="java.lang.String" value="Apellido"/>
                   </Properties>
                 </Component>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+                <Component class="javax.swing.JTextField" name="apellido_field1">
+                </Component>
+                <Component class="javax.swing.JLabel" name="contrase&#xf1;aCivil_txt1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="contrase&#xf1;aCivil_field1">
+                </Component>
+                <Component class="javax.swing.JLabel" name="fechaNacimiento_txt1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fecha de Nacimiento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="sexo_txt1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sexo"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="sexo_cb1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="2">
+                        <StringItem index="0" value="M"/>
+                        <StringItem index="1" value="F"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
                   <AuxValues>
-                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
-
-                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                  <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="descripcion_area1">
-                      <Properties>
-                        <Property name="columns" type="int" value="20"/>
-                        <Property name="rows" type="int" value="5"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
+                </Component>
+                <Component class="javax.swing.JLabel" name="departamento_txt1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Departamento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="departamento_cb1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="Francisco Morazan"/>
+                        <StringItem index="1" value="Comayagua"/>
+                        <StringItem index="2" value="Cortes"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JButton" name="modificar_btn1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Modificar"/>
+                  </Properties>
+                </Component>
+                <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+                </Component>
               </SubComponents>
             </Container>
           </SubComponents>
@@ -845,9 +846,6 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Ingresar"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ingresar_btnMouseClicked"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>
